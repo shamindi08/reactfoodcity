@@ -34,6 +34,6 @@ cd reactfoodcity
  ` npm start`
 4.	  Mandatory Login: Users must register and log in before they can access the products page or any other protected pages. Navigation to these pages is restricted until the user is authenticated. Attempting to access protected pages without logging in redirects users to the login page.
 5.	 Shopping Features:
-6.	After logging in, users can browse products, add products to the cart, and view the cart.
-7.	The cart page allows users to view the items they have added, adjust quantities, remove items, and calculate the total price of all items in the cart.
-8.	
+   After logging in, users can browse products, add products to the cart, and view the cart.
+  The cart page allows users to view the items they have added, adjust quantities, remove items, and calculate the total price of all items in the cart.
+	
