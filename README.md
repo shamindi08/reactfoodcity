@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+This is React-based online store application where users can register, log in, browse products, add them to their cart, and view their cart. The app uses Redux for state management and localStorage for user authentication and persistence.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Features
+ ### User Authentication
 
-## Available Scripts
+    Register and log in functionality using localStorage.
+    Protected routes to prevent unauthorized access to certain pages.
+    Users are redirected to the login page if not authenticated.
 
-In the project directory, you can run:
+### Product Listing
 
-### `npm start`
+   A catalog of products displayed on the Products Page.
+    Add products to the cart from the product listing.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Shopping Cart
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+    View items in the cart, update quantities, and remove items.
+    Calculate the total price of items in the cart.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Persistent State
+    
+    LocalStorage is used to save the user session and cart data.
+## Installation
+1.	Clone the repository:
+Git clone 
+cd reactfoodcity
+2.	npm install
+`npm install react-router-dom`
+`npm install @reduxjs/toolkit react-redux`
+`npm install formic`
+`npm install yup`
+`npm install prop-types`
+3.	Run the app
+ ` npm start`
+4.	  Mandatory Login: Users must register and log in before they can access the products page or any other protected pages. Navigation to these pages is restricted until the user is authenticated. Attempting to access protected pages without logging in redirects users to the login page.
+5.	 Shopping Features:
+6.	After logging in, users can browse products, add products to the cart, and view the cart.
+7.	The cart page allows users to view the items they have added, adjust quantities, remove items, and calculate the total price of all items in the cart.
+8.	
