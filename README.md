@@ -22,7 +22,8 @@ This is React-based online store application where users can register, log in, b
     LocalStorage is used to save the user session and cart data.
 ## Installation
 1.	Clone the repository:
-Git clone https://github.com/shamindi08/reactfoodcity.git
+Git clone https://github.com/shamindi08/reactfoodcity.git 
+
 cd reactfoodcity
 2.	npm install
 `npm install react-router-dom`
